@@ -5,11 +5,20 @@
 ## Description
 A program that generates and HTML file based on the response to various questions that gather information on your team.
 
+## Considerations 
+The email links will open a window to allow you to send an email to the one entered by the user. The github is also turned into a link that will allow the user to navigate to the engineers github profile based on the input.
+
 ## Tests
 npm test
 
 ## How to use
-Import Inquirer by running 'npm ci' in the terminal to download the dependencies. This will allow you to answer questions about your team. Once you have the dependencies downloaded, run 'node index.js' and answer the questions as needed. Once you are finished with the questions, just select 'View team' and an HTML file will be generated under the file name 'MyTeam'
+Import Inquirer by running 'npm ci' in the terminal to download the dependencies. This will allow you to answer questions about your team. Once you have the dependencies downloaded, run 'node index.js' and answer the questions as needed. Once you are finished with the questions, just select 'View team' and an HTML file will be generated under the file name 'MyTeam'.
+
+
+
+https://user-images.githubusercontent.com/75141165/151458675-153cfd9f-37e1-40fd-a001-81832e896f81.mp4
+
+
 
 ## Dependencies
 Import Inquirer by running 'npm ci' in the terminal to download the dependencies.
