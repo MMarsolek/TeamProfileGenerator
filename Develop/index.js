@@ -5,9 +5,9 @@ const Engineer = require('./lib/Engineer');
 const Manager = require('./lib/Manager');
 const Intern = require('./lib/Intern');
 
-
+//An array of the team members
 const team = []
-
+//Questions for a manager
 const managerQuestions = [
     {
         type: 'input',
@@ -31,6 +31,8 @@ const managerQuestions = [
     }
 ]
 
+//Questions for a engineer
+
 const engineerQuestions = [
     {
         type: 'input',
@@ -53,6 +55,8 @@ const engineerQuestions = [
         message: 'Please enter the managers engineers gitHub.'
     }
 ]
+
+//Questions for an intern
 
 const internQuestions = [
     {
@@ -86,6 +90,8 @@ const mainQuestions = [
     }
 ]
 
+
+//Asked the passed questions when called
 function askQuestions(questions){
     inquirer.prompt(questions).then(answers => {
         if (answers.mainQuestions == 'Add an engineer') {
@@ -106,6 +112,7 @@ function askQuestions(questions){
     })
 }
 
+//Starts off the process by gathering the managers answers
 function main(){
     inquirer.prompt(managerQuestions).then(answers => {
         manager = new Manager(answers.name, answers.id, answers.email, answers.office);
