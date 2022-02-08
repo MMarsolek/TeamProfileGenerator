@@ -5,6 +5,9 @@
 ## Description
 A program that generates and HTML file based on the response to various questions that gather information on your team.
 
+![image](https://user-images.githubusercontent.com/75141165/151460038-f7bbe135-37e0-4d80-81ba-2c2f39474a37.png)
+
+
 ## Considerations 
 The email links will open a window to allow you to send an email to the one entered by the user. The github is also turned into a link that will allow the user to navigate to the engineers github profile based on the input.
 
